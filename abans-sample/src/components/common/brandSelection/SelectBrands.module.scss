@@ -1,0 +1,40 @@
+.row {
+  position: relative;
+  transition: 300ms ease-in-out;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.selectBrand {
+  padding: 10px;
+  background-color: gray;
+  display: inline-flex;
+  border-radius: 15px;
+  margin: 10px;
+  cursor: pointer;
+}
+.image {
+  width: calc(100% - 60px);
+  max-height: 100px;
+  height: auto;
+  object-fit: contain;
+  object-position: left;
+  margin: 5px 15px;
+  padding: 10px;
+  border-radius: 15px;
+  border: solid 1px gray;
+}
+
+.logoFlexDiv {
+  flex-basis: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.colsHidden {
+  
+}
